@@ -28,7 +28,7 @@ export default defineConfig({
       }
     }
   ],
-  base: process.env.GITHUB_PAGES ? '/nsfc-62176129/' : '/',
+    base: process.env.GITHUB_PAGES ? '/personalized-neuromodulation/' : '/',
   build: {
     outDir: 'dist',
   },
