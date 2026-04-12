@@ -25,6 +25,7 @@ export const publications = [
     representative: true,
     slug: slugify('Adaptive Control of Dynamic Networks'),
     pdf: 'adaptive-control-of-dynamic-networks.pdf',
+    doi: 'https://doi.org/10.1109/TNSE.2025.3560658',
     explainerUrl: 'papers-explainer/adaptive_control_dynamic_networks_web_package/',
   },
   {
@@ -38,6 +39,7 @@ export const publications = [
     representative: false,
     slug: slugify('Psychiatry in the Era of Artificial Intelligence Transformations in Theory and Practice and Implications for Medical Education'),
     pdf: 'psychiatry-in-the-era-of-ai.pdf',
+    doi: 'https://doi.org/10.3389/fpubh.2025.1660448',
     explainerUrl: 'papers-explainer/ai_psychiatry_web_package/',
   },
   {
@@ -51,6 +53,7 @@ export const publications = [
     representative: true,
     slug: slugify('Bridging animal models and humans neuroimaging as intermediate phenotypes linking genetic or stress factors to anhedonia'),
     pdf: 'bridging-animal-models-and-humans.pdf',
+    doi: 'https://doi.org/10.1186/s12916-025-03850-4',
     hasExplainer: true,
     explainerUrl: 'papers-explainer/guo2025_anhedonia_web_content_pack/',
   },
@@ -65,6 +68,7 @@ export const publications = [
     representative: false,
     slug: slugify('Evaluation of the Efficacy of Group Cognitive Behavioral Therapy on Anxiety in College Students Based on Wearable Devices and Mobile Applications'),
     pdf: 'evaluation-efficacy-group-cbt-anxiety.pdf',
+    doi: 'https://doi.org/10.1186/s12888-025-07572-y',
     explainerUrl: 'papers-explainer/gcbt_web_content_pack/',
   },
   {
@@ -78,6 +82,7 @@ export const publications = [
     representative: true,
     slug: slugify('A Neuroimaging-based Precision Medicine Framework for Depression'),
     pdf: 'neuroimaging-precision-medicine-framework-depression.pdf',
+    doi: 'https://doi.org/10.1016/j.ajp.2023.103803',
     explainerUrl: 'papers-explainer/depression_precision_web_package/',
   },
   {
@@ -91,6 +96,7 @@ export const publications = [
     representative: false,
     slug: slugify('Effectiveness of non-invasive brain stimulation on depressive symptoms targeting prefrontal cortex in functional magnetic resonance imaging studies'),
     pdf: 'effectiveness-nibs-depressive-symptoms-pfc.pdf',
+    doi: 'https://doi.org/10.1093/psyrad/kkae025',
     explainerUrl: 'papers-explainer/nibs_web_content_pack/',
   },
   {
@@ -104,6 +110,7 @@ export const publications = [
     representative: false,
     slug: slugify('Effectiveness of a Biofeedback Intervention Targeting Mental and Physical Health among College Students'),
     pdf: 'effectiveness-biofeedback-intervention.pdf',
+    doi: 'https://doi.org/10.1007/s10484-023-09612-3',
     explainerUrl: 'papers-explainer/biofeedback_web_package/',
   },
   {
@@ -117,6 +124,7 @@ export const publications = [
     representative: false,
     slug: slugify('Prediction of the Efficacy of Group Cognitive Behavioral Therapy Using Heart Rate Variability Based Smart Wearable Devices'),
     pdf: 'prediction-efficacy-group-cbt-hrv-wearable.pdf',
+    doi: 'https://doi.org/10.1186/s12888-024-05638-x',
     explainerUrl: 'papers-explainer/gcbt_hrv_public_web_package/',
   },
   {
@@ -130,6 +138,7 @@ export const publications = [
     representative: false,
     slug: slugify('Digital Dietary Behaviors in Individuals with Depression A Real-World Behavioral Observation'),
     pdf: 'digital-dietary-behaviors-depression.pdf',
+    doi: 'https://doi.org/10.2196/47428',
     explainerUrl: 'papers-explainer/digital_dietary_behaviors_web_package/',
   },
   {
@@ -143,6 +152,7 @@ export const publications = [
     representative: false,
     slug: slugify('From Connectivity to Controllability Unraveling the Brain Biomarkers of Major Depressive Disorder'),
     pdf: 'from-connectivity-to-controllability.pdf',
+    doi: 'https://doi.org/10.3390/brainsci14050509',
     explainerUrl: 'papers-explainer/mdd_public_web_package/',
   },
   {
@@ -156,6 +166,7 @@ export const publications = [
     representative: true,
     slug: slugify('Module control of network analysis in psychopathology'),
     pdf: 'module-control-network-analysis-psychopathology.pdf',
+    doi: 'https://doi.org/10.1016/j.isci.2024.110302',
     explainerUrl: 'papers-explainer/module_control_web_package/',
   },
   {
@@ -169,6 +180,7 @@ export const publications = [
     representative: false,
     slug: slugify('Exploring the relationship between response time sequence in scale answering process and severity of insomnia'),
     pdf: 'exploring-response-time-sequence-insomnia.pdf',
+    doi: 'https://doi.org/10.1016/j.heliyon.2024.e33485',
   },
   {
     id: 13,
@@ -181,6 +193,7 @@ export const publications = [
     representative: true,
     slug: slugify('Attention-Based Acoustic Feature Fusion Network for Depression Detection'),
     pdf: 'attention-based-acoustic-feature-fusion.pdf',
+    doi: 'https://doi.org/10.1016/j.neucom.2024.128209',
     explainerUrl: 'papers-explainer/abafnet_public_web_package/',
   },
   {
@@ -194,6 +207,7 @@ export const publications = [
     representative: false,
     slug: slugify('Temporal Dynamics in Psychological Assessments A Novel Dataset with Scales and Response Times'),
     pdf: 'temporal-dynamics-psychological-assessments.pdf',
+    doi: 'https://doi.org/10.1038/s41597-024-03888-8',
     explainerUrl: 'papers-explainer/response-time-dataset_web_content_package/',
   },
   {
@@ -207,6 +221,7 @@ export const publications = [
     representative: false,
     slug: slugify('Cancer-keeper genes as therapeutic targets'),
     pdf: 'cancer-keeper-genes-therapeutic-targets.pdf',
+    doi: 'https://doi.org/10.1016/j.isci.2023.107296',
     explainerUrl: 'papers-explainer/ckg_web_content_pack/',
   },
   {
@@ -220,6 +235,7 @@ export const publications = [
     representative: false,
     slug: slugify('Attention Guided Learnable Time-frequency Filterbanks for Speech Depression Detection'),
     pdf: 'attention-guided-learnable-filterbanks-speech.pdf',
+    doi: 'https://doi.org/10.1016/j.neunet.2023.05.041',
   },
   {
     id: 17,
@@ -232,6 +248,7 @@ export const publications = [
     representative: false,
     slug: slugify('Total Controllability Analysis Discovers Explainable Drugs for Covid-19 Therapy and Prevention'),
     pdf: 'total-controllability-analysis-covid19.pdf',
+    doi: 'https://doi.org/10.1186/s13062-023-00410-9',
   },
   {
     id: 18,
@@ -244,6 +261,7 @@ export const publications = [
     representative: false,
     slug: slugify('Towards a neuroimaging biomarker for predicting cognitive behavioral therapy outcomes in treatment-naive depression'),
     pdf: 'towards-neuroimaging-biomarker-cbt-depression.pdf',
+    doi: 'https://doi.org/10.1016/j.psychres.2023.115542',
     explainerUrl: 'papers-explainer/cbt_biomarker_web_package/',
   },
   {
@@ -257,6 +275,7 @@ export const publications = [
     representative: false,
     slug: slugify('School-based Evaluation Advancing Response for Child Health SEARCH'),
     pdf: 'school-based-evaluation-search-cohort.pdf',
+    doi: 'https://doi.org/10.1136/bmjment-2023-300861',
     explainerUrl: 'papers-explainer/SEARCH_public_web_pack/',
   },
   {
@@ -270,6 +289,7 @@ export const publications = [
     representative: false,
     slug: slugify('Fast and accurate assessment of depression based on vocal acoustic features'),
     pdf: 'fast-accurate-assessment-depression-voice.pdf',
+    doi: 'https://doi.org/10.3389/fpsyt.2023.1195276',
     explainerUrl: 'papers-explainer/voice-depression-web-content-pack/',
   },
   {
@@ -283,6 +303,7 @@ export const publications = [
     representative: false,
     slug: slugify('Response to Significance and stability of deep learning-based identification of subtypes within major psychiatric disorders'),
     pdf: 'response-significance-stability-deep-learning.pdf',
+    doi: 'https://doi.org/10.1038/s41380-022-01613-8',
     explainerUrl: 'papers-explainer/mpd-subtyping-web-content-pack/',
   },
 ]
