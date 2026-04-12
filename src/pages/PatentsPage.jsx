@@ -1,12 +1,20 @@
 import { useTranslation } from '../i18n'
 import { patents } from '../data/patents'
 import ScrollReveal from '../components/shared/ScrollReveal'
+import SEOHead from '../components/shared/SEOHead'
 
 export default function PatentsPage() {
   const { language, t } = useTranslation()
 
   return (
     <div className="pt-20 pb-16 min-h-screen bg-slate-50">
+      <SEOHead
+        title={language === 'zh' ? '专利列表 - 个性化神经调控' : 'Patents - Personalized Neuromodulation'}
+        description={language === 'zh'
+          ? `项目资助期内授权的${patents.length}项发明专利，涵盖MRI校正、神经调控靶点、认知训练、心理评估等方向。`
+          : `${patents.length} patents covering MRI correction, neuromodulation targets, cognitive training, and psychological assessment from NSFC project 62176129.`}
+        path="/patents"
+      />
       <div className="section-container">
         <ScrollReveal>
           <h1 className="text-3xl sm:text-4xl font-bold text-navy mb-3">{t('patentsPage.heading')}</h1>

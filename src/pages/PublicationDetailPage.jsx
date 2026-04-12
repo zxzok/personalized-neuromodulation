@@ -3,6 +3,7 @@ import { useTranslation } from '../i18n'
 import { publications, categories, getPublicationBySlug } from '../data/publications'
 import ScrollReveal from '../components/shared/ScrollReveal'
 import FloatingParticles from '../components/shared/FloatingParticles'
+import SEOHead from '../components/shared/SEOHead'
 
 const categoryColorMap = {
   'network-control': {
@@ -67,6 +68,19 @@ export default function PublicationDetailPage() {
 
   return (
     <div className="min-h-screen bg-slate-50">
+      <SEOHead
+        title={pub.title}
+        description={`${pub.authors}. ${pub.journal}, ${pub.volume || ''} (${pub.year}). NSFC 62176129 Personalized Neuromodulation.`}
+        path={`/publications/${pub.slug}`}
+        citation={{
+          title: pub.title,
+          authors: pub.authors,
+          journal: pub.journal,
+          year: pub.year,
+          volume: pub.volume,
+          pdfUrl: pub.pdf ? `https://zxzok.github.io/personalized-neuromodulation/papers/${pub.pdf}` : undefined,
+        }}
+      />
       {/* Hero Banner */}
       <section
         className={`relative pt-24 pb-16 sm:pt-28 sm:pb-20 bg-gradient-to-br ${colors.bg} overflow-hidden`}
