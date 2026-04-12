@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from '../../i18n'
 import ScrollReveal from './ScrollReveal'
 import FloatingParticles from './FloatingParticles'
+import SEOHead from './SEOHead'
 import { publications } from '../../data/publications'
 
 const colorMap = {
@@ -11,8 +12,15 @@ const colorMap = {
   coral: { bg: 'from-coral/90 to-ocean', accent: 'text-coral', pill: 'bg-coral/10 text-coral' },
 }
 
+const topicPathMap = {
+  subtyping: '/research/subtyping',
+  networkControl: '/research/network-control',
+  biomarkers: '/research/biomarkers',
+  translation: '/research/translation',
+}
+
 export default function ResearchDetailLayout({ topicKey, accentColor = 'ocean', relatedCategory, icon }) {
-  const { t } = useTranslation()
+  const { t, language } = useTranslation()
   const colors = colorMap[accentColor] || colorMap.ocean
   const prefix = `researchDetail.${topicKey}`
 
@@ -25,8 +33,16 @@ export default function ResearchDetailLayout({ topicKey, accentColor = 'ocean', 
     content: t(`${prefix}.${s}Content`),
   }))
 
+  const pageTitle = t(`${prefix}.title`)
+  const pageSubtitle = t(`${prefix}.subtitle`)
+
   return (
     <div className="min-h-screen bg-slate-50">
+      <SEOHead
+        title={`${pageTitle} | ${language === 'zh' ? '个性化神经调控' : 'Personalized Neuromodulation'}`}
+        description={pageSubtitle}
+        path={topicPathMap[topicKey] || '/'}
+      />
       {/* Hero Banner */}
       <section className={`relative pt-24 pb-16 sm:pt-28 sm:pb-20 bg-gradient-to-br ${colors.bg} overflow-hidden`}>
         <FloatingParticles count={12} color="rgba(255,255,255,0.08)" />

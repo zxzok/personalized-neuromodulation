@@ -4,6 +4,7 @@ import { useTranslation } from '../i18n'
 import { getPublicationBySlug } from '../data/publications'
 import { loadExplainer, hasExplainer } from '../data/explainers'
 import ExplainerLayout from '../components/explainer/ExplainerLayout'
+import SEOHead from '../components/shared/SEOHead'
 
 export default function ExplainerPage() {
   const { slug } = useParams()
@@ -55,5 +56,14 @@ export default function ExplainerPage() {
     )
   }
 
-  return <ExplainerLayout data={data} publication={pub} />
+  return (
+    <>
+      <SEOHead
+        title={`${language === 'zh' ? '科普解读' : 'Explainer'}: ${pub.title}`}
+        description={`${language === 'zh' ? '科普解读' : 'Scientific explainer for'}: ${pub.title}. ${pub.journal}, ${pub.year}.`}
+        path={`/publications/${slug}/explainer`}
+      />
+      <ExplainerLayout data={data} publication={pub} />
+    </>
+  )
 }

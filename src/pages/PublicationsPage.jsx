@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from '../i18n'
 import { publications, categories } from '../data/publications'
 import ScrollReveal from '../components/shared/ScrollReveal'
+import SEOHead from '../components/shared/SEOHead'
 
 export default function PublicationsPage() {
   const { language, t } = useTranslation()
@@ -27,6 +28,13 @@ export default function PublicationsPage() {
 
   return (
     <div className="pt-20 pb-16 min-h-screen bg-slate-50">
+      <SEOHead
+        title={language === 'zh' ? '论文列表 - 个性化神经调控' : 'Publications - Personalized Neuromodulation'}
+        description={language === 'zh'
+          ? `项目资助期内发表的${publications.length}篇论文，涵盖脑网络控制、精准分型、数字表型与临床转化四大方向。`
+          : `${publications.length} publications on brain network control, precision medicine, digital phenotyping, and clinical translation from NSFC project 62176129.`}
+        path="/publications"
+      />
       <div className="section-container">
         <ScrollReveal>
           <h1 className="text-3xl sm:text-4xl font-bold text-navy mb-3">{t('publications.heading')}</h1>
