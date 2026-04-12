@@ -181,46 +181,51 @@ export default function PublicationDetailPage() {
             </ScrollReveal>
           )}
 
-          {/* PDF Buttons */}
-          {pub.pdf && (
+          {/* Action Buttons */}
+          {(pub.pdf || pub.doi) && (
             <ScrollReveal delay={200}>
               <div className="flex flex-wrap gap-3 mb-12">
-                <a
-                  href={`${basePath}papers/${pub.pdf}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg ${colors.btnBg} text-white text-sm font-medium transition-colors`}
-                >
-                  <svg
-                    className="w-4 h-4"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
+                {pub.doi && (
+                  <a
+                    href={pub.doi}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gradient-to-r from-navy to-ocean text-white text-sm font-medium hover:shadow-lg transition-all"
                   >
-                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                  </svg>
-                  {t('publicationDetail.viewPdf')}
-                </a>
-                <a
-                  href={`${basePath}papers/${pub.pdf}`}
-                  download
-                  className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border ${colors.btnBorder} text-sm font-medium transition-colors`}
-                >
-                  <svg
-                    className="w-4 h-4"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                    {language === 'zh' ? '出版社官方页面' : 'Publisher Page'}
+                  </a>
+                )}
+                {pub.pdf && (<>
+                  <a
+                    href={`${basePath}papers/${pub.pdf}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg ${colors.btnBg} text-white text-sm font-medium transition-colors`}
                   >
-                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" y1="15" x2="12" y2="3" />
-                  </svg>
-                  {t('publicationDetail.downloadPdf')}
-                </a>
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                    {t('publicationDetail.viewPdf')}
+                  </a>
+                  <a
+                    href={`${basePath}papers/${pub.pdf}`}
+                    download
+                    className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border ${colors.btnBorder} text-sm font-medium transition-colors`}
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    {t('publicationDetail.downloadPdf')}
+                  </a>
+                </>)}
                 {pub.explainerUrl && (
                   <a
                     href={`${basePath}${pub.explainerUrl}`}
