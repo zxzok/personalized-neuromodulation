@@ -3,6 +3,7 @@ import FeaturedPublications from '../components/home/FeaturedPublications'
 import ResearchHighlights from '../components/home/ResearchHighlights'
 import KeyResults from '../components/home/KeyResults'
 import ApplicationImpact from '../components/home/ApplicationImpact'
+import ShareBanner from '../components/home/ShareBanner'
 import ContactSection from '../components/home/ContactSection'
 import SEOHead from '../components/shared/SEOHead'
 
@@ -19,6 +20,7 @@ export default function HomePage() {
       <KeyResults />
       <FeaturedPublications />
       <ApplicationImpact />
+      <ShareBanner />
       <ContactSection />
     </>
   )

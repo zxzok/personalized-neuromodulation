@@ -4,6 +4,7 @@ import { publications, categories, getPublicationBySlug } from '../data/publicat
 import ScrollReveal from '../components/shared/ScrollReveal'
 import FloatingParticles from '../components/shared/FloatingParticles'
 import SEOHead from '../components/shared/SEOHead'
+import ShareAndCite from '../components/shared/ShareAndCite'
 
 const categoryColorMap = {
   'network-control': {
@@ -259,6 +260,11 @@ export default function PublicationDetailPage() {
               </div>
             </ScrollReveal>
           )}
+
+          {/* Share & Cite */}
+          <ScrollReveal delay={300}>
+            <ShareAndCite publication={pub} language={language} />
+          </ScrollReveal>
         </div>
       </section>
 
