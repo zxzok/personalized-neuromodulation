@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from '../../i18n'
 import ScrollReveal from '../shared/ScrollReveal'
 
-const SITE_URL = 'https://zxzok.github.io/personalized-neuromodulation/'
+const SITE_URL = 'https://precision-neuro.xizhe.net/'
 
 export default function ShareBanner() {
   const { language } = useTranslation()

@@ -4,186 +4,186 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/</loc>
+    <loc>https://precision-neuro.xizhe.net/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/publications</loc>
+    <loc>https://precision-neuro.xizhe.net/#/publications</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/patents</loc>
+    <loc>https://precision-neuro.xizhe.net/#/patents</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Research Detail Pages -->
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/research/subtyping</loc>
+    <loc>https://precision-neuro.xizhe.net/#/research/subtyping</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/research/network-control</loc>
+    <loc>https://precision-neuro.xizhe.net/#/research/network-control</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/research/biomarkers</loc>
+    <loc>https://precision-neuro.xizhe.net/#/research/biomarkers</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/#/research/translation</loc>
+    <loc>https://precision-neuro.xizhe.net/#/research/translation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Static Explainer Pages (directly accessible HTML) -->
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/adaptive_control_dynamic_networks_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/adaptive_control_dynamic_networks_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/ai_psychiatry_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/ai_psychiatry_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/guo2025_anhedonia_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/guo2025_anhedonia_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/gcbt_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/gcbt_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/depression_precision_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/depression_precision_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/nibs_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/nibs_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/biofeedback_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/biofeedback_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/gcbt_hrv_public_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/gcbt_hrv_public_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/digital_dietary_behaviors_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/digital_dietary_behaviors_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/mdd_public_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/mdd_public_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/module_control_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/module_control_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/abafnet_public_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/abafnet_public_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/response-time-dataset_web_content_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/response-time-dataset_web_content_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/ckg_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/ckg_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/cbt_biomarker_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/cbt_biomarker_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/SEARCH_public_web_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/SEARCH_public_web_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/voice-depression-web-content-pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/voice-depression-web-content-pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/mpd-subtyping-web-content-pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/mpd-subtyping-web-content-pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/adolescent-psychotic-mood-brain-network/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/adolescent-psychotic-mood-brain-network/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/mood_disorders_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/mood_disorders_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/immuno-inflammatory-neuroimaging-web-pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/immuno-inflammatory-neuroimaging-web-pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/schizophrenia_mof_web_content_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/schizophrenia_mof_web_content_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/sz_mri_public_page_pack/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/sz_mri_public_page_pack/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/vermis_fc_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/vermis_fc_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/visual_cortex_rtms_webpkg/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/visual_cortex_rtms_webpkg/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/web_content_package_aberrant_hippocampal_development/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/web_content_package_aberrant_hippocampal_development/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/rtms_primary_cortex_public_web_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/rtms_primary_cortex_public_web_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/module-control-web-package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/module-control-web-package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zxzok.github.io/personalized-neuromodulation/papers-explainer/abafnet_public_page_package/</loc>
+    <loc>https://precision-neuro.xizhe.net/papers-explainer/abafnet_public_page_package/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

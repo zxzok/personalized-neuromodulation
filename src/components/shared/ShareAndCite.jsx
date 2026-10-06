@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const SITE_BASE = 'https://zxzok.github.io/personalized-neuromodulation'
+const SITE_BASE = 'https://precision-neuro.xizhe.net'
 
 /**
  * ShareAndCite - Social sharing buttons + one-click citation copy for publications.

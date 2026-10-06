@@ -5,27 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NSFC 62176129 | Personalized Neuromodulation</title>
   <script>
-    // GitHub Pages SPA redirect: convert path to hash route
-    // e.g. /personalized-neuromodulation/publications -> /#/publications
+    // GitHub Pages SPA redirect for the custom domain root.
+    // e.g. /publications?year=2025 -> /#/publications?year=2025
     (function () {
-      var segmentCount = 1; // number of path segments to keep (repo name)
       var loc = window.location;
-      var pathSegments = loc.pathname.split('/').filter(Boolean);
-      // Remove the repo base segment
-      var route = '/' + pathSegments.slice(segmentCount).join('/');
-      if (route !== '/') {
-        loc.replace(
-          loc.protocol + '//' + loc.hostname + (loc.port ? ':' + loc.port : '') +
-          '/' + pathSegments.slice(0, segmentCount).join('/') +
-          '/#' + route +
-          (loc.search || '')
-        );
-      } else {
-        loc.replace(
-          loc.protocol + '//' + loc.hostname + (loc.port ? ':' + loc.port : '') +
-          '/' + pathSegments.slice(0, segmentCount).join('/') + '/'
-        );
-      }
+      loc.replace(loc.origin + '/#' + loc.pathname + loc.search + loc.hash);
     })();
   </script>
 </head>

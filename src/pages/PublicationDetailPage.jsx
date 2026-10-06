@@ -79,7 +79,7 @@ export default function PublicationDetailPage() {
           journal: pub.journal,
           year: pub.year,
           volume: pub.volume,
-          pdfUrl: pub.pdf ? `https://zxzok.github.io/personalized-neuromodulation/papers/${pub.pdf}` : undefined,
+          pdfUrl: pub.pdf ? `https://precision-neuro.xizhe.net/papers/${pub.pdf}` : undefined,
         }}
       />
       {/* Hero Banner */}

@@ -1,8 +1,8 @@
 # Robots.txt for NSFC 62176129 - Personalized Neuromodulation
-# https://zxzok.github.io/personalized-neuromodulation/
+# https://precision-neuro.xizhe.net/
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://zxzok.github.io/personalized-neuromodulation/sitemap.xml
+Sitemap: https://precision-neuro.xizhe.net/sitemap.xml

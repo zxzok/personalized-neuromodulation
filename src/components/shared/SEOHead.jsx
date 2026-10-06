@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const BASE_URL = 'https://zxzok.github.io/personalized-neuromodulation'
+const BASE_URL = 'https://precision-neuro.xizhe.net'
 const SITE_NAME = 'NSFC 62176129 - Personalized Neuromodulation'
 
 /**
